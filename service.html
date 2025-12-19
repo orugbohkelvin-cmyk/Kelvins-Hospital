@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelvins Hospital</title>
+    <link rel="stylesheet" href="hospital.css">
+    <script src="https://kit.fontawesome.com/8d6df028ca.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <h3>Kelvins Hospital</h3>
+        </div>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+
+        <div class="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+
+
+
+
+<section class="featured-services">
+    <div class="services-left">
+        <h4>What We Do</h4>
+        <h2>Featured Services</h2>
+
+        <ul class="service-menu">
+            <li class="active" onclick="showService(0)">General & Family Medicine</li>
+            <li onclick="showService(1)">Emergency & Critical Care</li>
+            <li onclick="showService(2)">Specialist Services</li>
+            <li onclick="showService(3)">Surgical Services</li>
+            <li onclick="showService(4)">Maternity & Child Health</li>
+            <li onclick="showService(5)">Diagnostic & Laboratory</li>
+            <li onclick="showService(6)">Wellness & Health Packages</li>
+            <li onclick="showService(7)">Pharmacy</li>
+        </ul>
+
+        <a href="#" class="view-all">View All Services</a>
+    </div>
+
+    <div class="services-right">
+
+        <div class="service-content active">
+            <h3>General & Family Medicine</h3>
+            <p>
+                Comprehensive primary healthcare services for individuals
+                and families, focusing on prevention, diagnosis, and treatment.
+            </p>
+            <img src="img/one.png" alt="">
+        </div>
+
+        <div class="service-content">
+            <h3>Emergency & Critical Care</h3>
+            <p>
+                24/7 emergency services with rapid response teams and
+                advanced life-saving equipment.
+            </p>
+            <img src="img/two.png" alt="">
+        </div>
+
+        <div class="service-content">
+            <h3>Specialist Services</h3>
+            <p>
+                Expert specialist care across cardiology, neurology,
+                orthopedics, and more.
+            </p>
+            <img src="img/three.jpg" alt="">
+        </div>
+
+        <div class="service-content">
+            <h3>Surgical Services</h3>
+            <p>
+                Safe and advanced surgical procedures delivered by
+                experienced surgeons.
+            </p>
+            <img src="img/" alt="">
+        </div>
+
+        <div class="service-content">
+            <h3>Maternity & Child Health</h3>
+            <p>
+                Expert maternity care, newborn support, and child wellness
+                clinics designed for peace of mind.
+            </p>
+            <img src="img/" alt="">
+        </div>
+
+        <div class="service-content">
+            <h3>Diagnostic & Laboratory Services</h3>
+            <p>
+                Accurate diagnostics using modern laboratory technology.
+            </p>
+            <img src="img/" alt="">
+        </div>
+
+        <div class="service-content">
+            <h3>Wellness & Health Packages</h3>
+            <p>
+                Preventive healthcare packages for long-term wellbeing.
+            </p>
+            <img src="img/" alt="">
+        </div>
+
+        <div class="service-content">
+            <h3>Pharmacy</h3>
+            <p>
+                Fully stocked pharmacy providing safe and reliable medications.
+            </p>
+            <img src="img/" alt="">
+        </div>
+    </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+    <div class="ending">
+        <h2 class="footer-title">About</h2>
+        <p>
+            Kelvins Hospital delivers trusted healthcare solutions
+            with a focus on quality, safety, and patient satisfaction.
+        </p>
+
+        <ul class="links">
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+        </ul>
+    </div>
+
+    <div class="ending">
+        <h2 class="footer-title">Quick Links</h2>
+        <ul class="links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="ending">
+        <h2 class="footer-title">Countries</h2>
+        <ul class="links">
+            <li><a href="#">Nigeria</a></li>
+            <li><a href="#">Ghana</a></li>
+            <li><a href="#">South Africa</a></li>
+            <li><a href="#">Cameroon</a></li>
+        </ul>
+    </div>
+</footer>
+
+<div class="footer-bottom">
+    <p>&copy; 2025 Kelvins Hospital. All rights reserved. Designed by Kelvin</p>
+</div>
+
+<script src="./hospital.js"></script>
+</body>
+</html>
